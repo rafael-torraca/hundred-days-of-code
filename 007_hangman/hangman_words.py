@@ -1,0 +1,1 @@
+word_list = ["cavalo", "camelo", "cachorro", "camaleao", "dinossauro", "rato", "vaca"]
