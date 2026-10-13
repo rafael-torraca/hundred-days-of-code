@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Python: executar arquivo atual com uv",
+            "type": "process",
+            "command": "uv",
+            "args": [
+                "run",
+                "python",
+                "${file}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}${pathSeparator}src"
+                }
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "focus": true,
+                "panel": "dedicated",
+                "clear": false
+            }
+        }
+    ]
+}
