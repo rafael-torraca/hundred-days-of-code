@@ -1,4 +1,4 @@
-from menu import MENU, resources,profit
+from menu import MENU, profit, resources
 
 
 def is_resources_sufficient(order_ingradients):
